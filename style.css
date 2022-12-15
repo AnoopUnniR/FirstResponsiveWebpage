@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+   padding: 0px;
+}
+.body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+.nav-class{
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    height: fit-content;
+    padding: 2% 2%;
+    box-sizing: border-box;
+    display: flex;
+    
+}
+  
+.sandwitch-btn-cont{
+    position: absolute;
+    top: 1.5rem;
+    left:  2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.sandwitch-btn-cont :hover{
+    cursor: pointer;
+}
+     
+
+.globe-icon:hover, .search-icon:hover{
+    cursor: pointer;
+}
+
+@media (max-width:1200px) {
+    .nav-class{
+        height: 83px;
+    }
+    .sandwitch-btn-cont{
+        display: flex;
+        
+    }
+    .nav-links li a{
+        background-color: gray;
+        margin: 0;
+        display: block;
+        
+        
+    }
+    .amd-head{
+        padding-left:4rem;
+        
+    } 
+    .nav-links li a:hover{
+        background-color: lightslategrey;
+        
+        
+        
+    }
+    .nav-links-cont{
+        position: absolute;
+        top: 83px;
+       margin-left:-380px ;
+      
+      
+    }
+    .nav-links-cont.active{
+        margin-left: -120px;
+        transition: 1s;
+        z-index: 1000;
+        width: 500px;
+
+        
+    }
+    #video-zoom{
+        margin-left: -200px;
+    }
+    
+}
+ @media(max-width:400px) {
+        .globe-icon{
+            display: none;
+        }
+    
+}
+    
+
+.sandwitch-btn{
+    width: 40px;
+    height: 8px;
+    color: black;
+    background-color: white;
+    margin: 2px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    opacity: 1;
+    
+}
+.amd-head{
+    display: inline;
+}
+.amd-head p{    
+    padding-left: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    display: inline;
+   
+}
+.amd-head p a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links-cont{
+    text-align: left;
+    padding-left: 60px;
+    
+
+}
+.nav-links li{
+    list-style: none;
+    display: inline;
+    
+    
+    
+}
+.nav-links li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding:  2rem;
+    color: white;
+}
+.nav-links li a:hover{
+    text-decoration: underline;
+    transition: 1s;
+
+}
+.nav-rightside{
+    
+    position: absolute;
+    top: 1.rem;
+    right: 1rem;
+    
+}
+
+.nav-rightside img{
+    height: 30px;
+    margin: 0 20px;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    
+     
+}
+.front-video{
+    overflow: hidden ;
+    z-index: 0;
+    padding: 0;
+    
+    
+}
+.video-overlay-cont{
+    position: absolute;
+    right: 0;
+    top: 250px;
+    background-color: black;
+    height: fit-content;
+    padding: 30px;
+    box-sizing: border-box;
+    opacity: .8;
+    
+}
+.video-overlay-cont p{
+    font-size: 3vw;
+    color: white;
+    box-sizing: border-box;
+    
+}
+.front-video-button{
+    font-size: 23px;
+}
+.img-fluid{
+    padding: 0;
+    height: 60vh;
+}
+.parent{
+    
+    background-image: url(img2/rdna-background.webp);
+    height: fit-content;
+    width: auto;
+    
+ }
+ .parent img{
+    width: 100vw;
+
+ }
+ .amd-graphics-img img{
+    width: 80%;
+    padding-top: 20px;
+    
+ }
+ .para-graphics{
+    box-sizing: border-box;
+    width: 40px;
+    padding: 40px;
+   
+ }
+ .para-graphics h1,p {
+    padding: 10px;
+ }
+ 
+.btn-in{
+    width: 150px;
+    margin: 10px;
+    z-index: 1000;
+    
+   
+   
+}
+.body-list-cont button{
+    font-weight: 700;
+    border-radius: 0;
+}
+.sec-section button{
+    font-weight: 700;
+    border-radius: 0;
+}
+.amd-logo-sec-two{
+    display: block;
+    padding-bottom: 10px;
+}
+.sec-section{
+    width: 98vw;
+}
+.body-list-cont{
+   padding: 30px;
+
+}
+.body-list-img{
+  
+    max-width: 100%;
+}
+footer{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    color: white;
+   
+}
+footer ul li{
+    
+    list-style-type: none;
+}footer div{
+    padding-top: 40px;
+}
+.footer-list-head{
+    font-weight: 700;
+    font-size: 20px;
+}
+
